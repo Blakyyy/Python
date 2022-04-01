@@ -7,6 +7,8 @@ for i in range(-num, num + 1):
     data.write(f"{i}\n")
     data.close()
 for j in range(-num, num + 1):
-    sum = sum + int(j)
-data = open(file, "r")
-print(sum)
+    j = j * num
+data = open(file, "a")
+data.write(f"{j}\n")
+data.close
+    
