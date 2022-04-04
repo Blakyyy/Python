@@ -5,9 +5,9 @@ candy = 228
 while candy > 0:
     if who == 1:
         your_turn = int(input('Its your turn, please choose a number of candies you want to take from the box max(28): '))
+        candy = candy - your_turn
         while your_turn > 28:
             your_turn = int(input('You can take maximum 28 candies, please choose antoher amount: '))
-        candy = candy - your_turn
         if candy > 0:
             print(f'Candys left {candy}, its bot turn now')
             who = 0
