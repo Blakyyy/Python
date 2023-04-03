@@ -9,8 +9,6 @@ Contents
 This repository includes the following:
 
 -   **Scripts:** A collection of Python scripts that perform specific tasks.
--   **Projects:** Several Python projects that demonstrate how to build real-world applications using Python.
--   **Tutorials:** A series of tutorials that cover different aspects of Python programming, including data structures, control flow, functions, modules, and more.
 -   **Exercises:** A collection of exercises to practice different Python concepts.
 Getting Started
 ---------------
